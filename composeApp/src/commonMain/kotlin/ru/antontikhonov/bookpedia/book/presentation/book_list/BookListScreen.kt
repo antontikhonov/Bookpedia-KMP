@@ -38,17 +38,16 @@ import bookpedia_kmp.composeapp.generated.resources.no_favorite_books
 import bookpedia_kmp.composeapp.generated.resources.no_search_results
 import bookpedia_kmp.composeapp.generated.resources.search_results
 import org.jetbrains.compose.resources.stringResource
-import org.koin.compose.viewmodel.koinViewModel
 import ru.antontikhonov.bookpedia.book.domain.Book
 import ru.antontikhonov.bookpedia.book.presentation.book_list.components.BookList
 import ru.antontikhonov.bookpedia.book.presentation.book_list.components.BookSearchBar
-import ru.antontikhonov.bookpedia.presentation.DarkBlue
-import ru.antontikhonov.bookpedia.presentation.DesertWhite
-import ru.antontikhonov.bookpedia.presentation.SandYellow
+import ru.antontikhonov.bookpedia.core.presentation.DarkBlue
+import ru.antontikhonov.bookpedia.core.presentation.DesertWhite
+import ru.antontikhonov.bookpedia.core.presentation.SandYellow
 
 @Composable
 fun BookListScreenRoot(
-    viewModel: BookListViewModel = koinViewModel(),
+    viewModel: BookListViewModel,
     onBookClick: (Book) -> Unit,
     modifier: Modifier = Modifier,
 ) {

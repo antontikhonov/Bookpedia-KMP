@@ -1,4 +1,4 @@
-package ru.antontikhonov.bookpedia.presentation
+package ru.antontikhonov.bookpedia.core.presentation
 
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.resources.StringResource

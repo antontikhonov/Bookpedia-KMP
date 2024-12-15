@@ -26,9 +26,9 @@ import bookpedia_kmp.composeapp.generated.resources.Res
 import bookpedia_kmp.composeapp.generated.resources.close_hint
 import bookpedia_kmp.composeapp.generated.resources.search_hint
 import org.jetbrains.compose.resources.stringResource
-import ru.antontikhonov.bookpedia.presentation.DarkBlue
-import ru.antontikhonov.bookpedia.presentation.DesertWhite
-import ru.antontikhonov.bookpedia.presentation.SandYellow
+import ru.antontikhonov.bookpedia.core.presentation.DarkBlue
+import ru.antontikhonov.bookpedia.core.presentation.DesertWhite
+import ru.antontikhonov.bookpedia.core.presentation.SandYellow
 
 @Composable
 fun BookSearchBar(

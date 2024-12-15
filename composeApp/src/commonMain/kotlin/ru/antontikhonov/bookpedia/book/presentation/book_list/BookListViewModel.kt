@@ -19,7 +19,7 @@ import ru.antontikhonov.bookpedia.book.domain.Book
 import ru.antontikhonov.bookpedia.book.domain.BookRepository
 import ru.antontikhonov.bookpedia.core.onError
 import ru.antontikhonov.bookpedia.core.onSuccess
-import ru.antontikhonov.bookpedia.presentation.toUiText
+import ru.antontikhonov.bookpedia.core.presentation.toUiText
 
 class BookListViewModel(
     private val bookRepository: BookRepository,

@@ -38,8 +38,8 @@ import bookpedia_kmp.composeapp.generated.resources.book_error_2
 import coil3.compose.rememberAsyncImagePainter
 import org.jetbrains.compose.resources.painterResource
 import ru.antontikhonov.bookpedia.book.domain.Book
-import ru.antontikhonov.bookpedia.presentation.LightBlue
-import ru.antontikhonov.bookpedia.presentation.SandYellow
+import ru.antontikhonov.bookpedia.core.presentation.LightBlue
+import ru.antontikhonov.bookpedia.core.presentation.SandYellow
 import kotlin.math.round
 
 @Composable

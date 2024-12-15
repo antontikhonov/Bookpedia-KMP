@@ -1,4 +1,4 @@
-package ru.antontikhonov.bookpedia.presentation
+package ru.antontikhonov.bookpedia.core.presentation
 
 import bookpedia_kmp.composeapp.generated.resources.Res
 import bookpedia_kmp.composeapp.generated.resources.error_disk_full
