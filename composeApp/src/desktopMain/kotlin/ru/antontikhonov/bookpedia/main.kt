@@ -2,6 +2,7 @@ package ru.antontikhonov.bookpedia
 
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
+import ru.antontikhonov.bookpedia.app.App
 import ru.antontikhonov.bookpedia.di.initKoin
 
 fun main() {

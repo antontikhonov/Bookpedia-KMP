@@ -11,6 +11,7 @@ import ru.antontikhonov.bookpedia.book.domain.BookRepository
 import ru.antontikhonov.bookpedia.core.data.HttpClientFactory
 import ru.antontikhonov.bookpedia.book.data.repository.DefaultBookRepository
 import ru.antontikhonov.bookpedia.book.presentation.book_list.BookListViewModel
+import ru.antontikhonov.bookpedia.book.presentation.SelectedBookViewModel
 
 expect val platformModule: Module
 
@@ -20,4 +21,5 @@ val sharedModule = module {
     singleOf(::DefaultBookRepository).bind<BookRepository>()
 
     viewModelOf(::BookListViewModel)
+    viewModelOf(::SelectedBookViewModel)
 }
